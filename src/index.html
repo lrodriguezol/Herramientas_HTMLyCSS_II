@@ -5,28 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <!--<link rel="stylesheet" type="text/css" href="./assets/styles/layouts/_home.scss"><!-- do not remove this line! -->
     <script src="https://kit.fontawesome.com/64cb72c839.js" crossorigin="anonymous"></script>
     <title>JEREZ DE LA FRONTERA</title>
   </head>
   <body>
    
    <!--Cabecera-->
-     <header>
-        <div class="container">
-            <div class="tit">
-            <h1>JerezFra</h1>
-
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="">Opcion Menu 1</a></li>
-                    <li><a href="">Opcion Menu 2</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
+   <include src="./views/header.html"></include>
+   
       <!--clase contenedora-->
       <main class="container">
         <div class="texto">
@@ -62,12 +48,7 @@
       </main>
    
 	<!--Pie de Página-->
-    <footer>
-        <div class="container">
-            <p>Asignatura Herramientas HTML y CSS II</p>
-            <p>Práctica de Laura Rodríguez Olmo &copy; 2024</p>   
-        </div>
-    </footer>
+    <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>

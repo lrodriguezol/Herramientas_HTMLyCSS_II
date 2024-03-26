@@ -4,6 +4,10 @@
  
  "rules": {
   "selector-class-pattern": "^.[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
+  "block-no-empty": true,
+  "no-duplicate-selectors": true,
+  "declaration-block-no-duplicate-custom-properties": true,
+  "comment-no-empty": true
  }
  
 }
